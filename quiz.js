@@ -21,10 +21,14 @@ const quizList = [
     ans:'Oxygen'
   },
   {
-    question:'1+1',
+    question:'1+1? ',
     options:['2','3','10','11'],
     ans:'2'
   },
+{
+    question:'when the covid-19 started? ', 
+    options: ['2000','2008','2011','2019' ], 
+    ans:'2019'} 
 ];
 const submitButton = document.querySelector('.submit-button');
 const quiz = document.querySelector('.quiz');
